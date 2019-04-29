@@ -1,0 +1,78 @@
+.seat {
+  border: 1px solid black;
+  margin: 2px 2px;
+  padding: 5px 5px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.seat:hover {
+  background-color: green;
+}
+
+.highlight {
+  background-color: green;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.select-page {
+  display: flex;
+  justify-content: space-between;
+}
+
+.select-page .flight-seatings {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 200px;
+  justify-content: space-evenly;
+  align-content: flex-start;
+}
+
+.seating-summary {
+  border: 1px dashed black;
+  border-radius: 3px;
+  padding: 20px 20px;
+}
+
+.select-page .seating-summary {
+  min-width: 200px;
+  min-height: 200px;
+}
+
+.select-page .summary-item {
+  margin-left: 10px;
+}
+
+.checkout-button {
+  border: 1px solid grey;
+  border-radius: 3px;
+  font-size: 20px;
+  color: grey;
+  cursor: pointer;
+}
+
+.checkout-button:hover {
+  color: white;
+  background-color: green;
+  border: none;
+}
+
+.checkout-page {
+  display: flex;
+}
+
+.checkout-page .flight-seatings {
+  display: none;
+}
+
+.checkout-page .seating-summary {
+  width: 100%;
+  min-height: 300px;
+}
